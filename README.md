@@ -1,16 +1,38 @@
-# todo_b1
+# Todo B1 🚀
 
-A new Flutter project.
+A modern Flutter todo app with Firebase backend and motivational quotes.
 
-## Getting Started
+## Features
+- ✅ Real-time Firebase sync
+- 💫 Animated inspirational quotes
+- 🔍 Search and filter tasks
+- 🌙 Dark theme UI
+- 📱 BLoC state management
+- 🔐 Anonymous authentication
 
-This project is a starting point for a Flutter application.
+## Tech Stack
+- **Framework:** Flutter
+- **State Management:** BLoC
+- **Backend:** Firebase (Firestore, Auth)
+- **UI:** Material Design 3
 
-A few resources to get you started if this is your first Flutter project:
+## Dependencies
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+text
+flutter_bloc: ^8.1.3
+cloud_firestore: ^4.13.6
+firebase_auth: ^4.15.3
+animated_text_kit: ^4.2.2
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Project Structure
+text
+lib/
+├── bloc/           # State management
+├── models/         # Data models
+├── repositories/   # Data layer
+├── screens/        # UI screens
+├── widgets/        # Reusable widgets
+└── main.dart
+
+
+Made with ❤️ using Flutter
